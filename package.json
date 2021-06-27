@@ -1,0 +1,22 @@
+{
+  "name": "DI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --init",
+    "dev": "ts-node-dev --respawn --transpileOnly ./main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.0.0-pre.50",
+    "tsyringe": "^4.3.0",
+    "typescript": "^3.9.6"
+  }
+}
